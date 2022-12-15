@@ -36,6 +36,8 @@ function Recipe() {
 
   const { title, image, ...rest } = recipe;
 
+  console.log(rest);
+
   return (
     <div>
       <h1>{title}</h1>

@@ -2,8 +2,6 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { getAllRecipes } from "../../services/recipe";
 
-const baseUrl = import.meta.env.VITE_API_URL;
-
 function Home() {
   const [recipesData, setRecipesData] = useState({
     isLoading: true,
