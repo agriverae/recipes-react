@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { getAllRecipes } from "../../services/recipe";
+//import recepies from "../../services/recepies.json";
+import Card from "../Card";
 
 function Home() {
   const [recipesData, setRecipesData] = useState({
@@ -14,6 +16,7 @@ function Home() {
   useEffect(() => {
     getAllRecipes(20)
       .then((res) => {
+        console.log(res);
         setRecipesData({
           isLoading: false,
           isError: null,
@@ -27,6 +30,13 @@ function Home() {
           data: null,
         });
       });
+
+    //Data hardcodeada
+    /*setRecipesData({
+      isLoading: false,
+      isError: null,
+      data: recepies.recipes,
+    });*/
   }, []);
 
   if (isLoading) return <h1>Loading</h1>;
@@ -34,21 +44,13 @@ function Home() {
   if (isError) return <h1>Error</h1>;
 
   return (
-    <div className="Home">
+    <div className="home">
       <h1>Recipes</h1>
-      <div>
+      <div className="container-card">
         {recipes?.map(({ title, image, dishTypes, id }) => {
           return (
             <Link to={`/recipe/${id}`} key={id}>
-              <article>
-                <h3>{title}</h3>
-                <img src={image} alt={title} />
-                <ul>
-                  {dishTypes.map((dishType) => (
-                    <li key={dishType}>{dishType}</li>
-                  ))}
-                </ul>
-              </article>
+              <Card title={title} image={image} dishTypes={dishTypes} />
             </Link>
           );
         })}

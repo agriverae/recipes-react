@@ -1,0 +1,71 @@
+.home h1 {
+  text-align: center;
+  color: rgb(145, 13, 74);
+}
+/*Card*/
+a {
+  text-decoration: none;
+}
+h3 {
+  color: rgb(175, 40, 112);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+li {
+  color: rgb(71, 8, 129);
+}
+.card {
+  box-shadow: 10px 10px 6px -1px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+  border-radius: 5px;
+}
+.image {
+  object-fit: cover;
+  width: 100%;
+  border-radius: 5px;
+}
+.container-card {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*Chips*/
+.container-chips {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  list-style: none;
+}
+.chip {
+  border-radius: 30px;
+  border: 1px solid violet;
+  padding: 5px 10px;
+  width: max-content;
+  margin: 2px;
+}
+
+/*recepie detail*/
+.recepie-detail {
+  margin: 70px;
+  max-width: 100%;
+}
+.recepie-detail h1 {
+  color: rgb(145, 13, 74);
+  text-align: center;
+}
+.recepie-detail img {
+  margin: 0 auto;
+  display: block;
+  height: 500px;
+}
+
+.recepie-detail .ingredients {
+  text-align: left;
+}
+
+.recepie-detail li {
+  margin-bottom: 10px;
+}

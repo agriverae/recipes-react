@@ -1,0 +1,343 @@
+{
+  "vegetarian": false,
+  "vegan": false,
+  "glutenFree": true,
+  "dairyFree": true,
+  "veryHealthy": false,
+  "cheap": false,
+  "veryPopular": false,
+  "sustainable": false,
+  "lowFodmap": true,
+  "weightWatcherSmartPoints": 8,
+  "gaps": "no",
+  "preparationMinutes": -1,
+  "cookingMinutes": -1,
+  "aggregateLikes": 7,
+  "healthScore": 26,
+  "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+  "license": "CC BY 3.0",
+  "sourceName": "Foodista",
+  "pricePerServing": 243.2,
+  "extendedIngredients": [
+    {
+      "id": 1055062,
+      "aisle": "Meat",
+      "image": "chicken-breasts.png",
+      "consistency": "SOLID",
+      "name": "skinless boneless chicken breast",
+      "nameClean": "boneless skinless chicken breast",
+      "original": "2 pounds Boneless, Skinless Organic Chicken Breast",
+      "originalName": "Boneless, Skinless Organic Chicken Breast",
+      "amount": 2,
+      "unit": "pounds",
+      "meta": ["boneless", "skinless", "organic"],
+      "measures": {
+        "us": {
+          "amount": 2,
+          "unitShort": "lb",
+          "unitLong": "pounds"
+        },
+        "metric": {
+          "amount": 907.185,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 4053,
+      "aisle": "Oil, Vinegar, Salad Dressing",
+      "image": "olive-oil.jpg",
+      "consistency": "LIQUID",
+      "name": "olive oil",
+      "nameClean": "olive oil",
+      "original": "1/4 cup Garlic Olive Oil (Trader Joe's has a great one, most markets carry it these days)",
+      "originalName": "Garlic Olive Oil (Trader Joe's has a great one, most markets carry it these days)",
+      "amount": 0.25,
+      "unit": "cup",
+      "meta": [
+        "(Trader Joe's has a great one, most markets carry it these days)"
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.25,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 59.147,
+          "unitShort": "ml",
+          "unitLong": "milliliters"
+        }
+      }
+    },
+    {
+      "id": 9152,
+      "aisle": "Produce",
+      "image": "lemon-juice.jpg",
+      "consistency": "LIQUID",
+      "name": "lemon juice",
+      "nameClean": "lemon juice",
+      "original": "1/2 cup Lemon Juice (You can juice 3 lemons if you have them handy, I usually reach",
+      "originalName": "Lemon Juice (You can juice 3 lemons if you have them handy, I usually reach",
+      "amount": 0.5,
+      "unit": "cup",
+      "meta": ["canned"],
+      "measures": {
+        "us": {
+          "amount": 0.5,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 118.294,
+          "unitShort": "ml",
+          "unitLong": "milliliters"
+        }
+      }
+    },
+    {
+      "id": 2043,
+      "aisle": "Spices and Seasonings",
+      "image": "turmeric.jpg",
+      "consistency": "SOLID",
+      "name": "tumeric",
+      "nameClean": "turmeric",
+      "original": "2 teaspoons Tumeric (Yes it will make your hands turn yellow, you can wear gloves if you wish. Not only is Tumeric know for a wide range of",
+      "originalName": "Tumeric (Yes it will make your hands turn yellow, you can wear gloves if you wish. Not only is Tumeric know for a wide range of",
+      "amount": 2,
+      "unit": "teaspoons",
+      "meta": ["yellow", "for a wide range of", "canned"],
+      "measures": {
+        "us": {
+          "amount": 2,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        },
+        "metric": {
+          "amount": 2,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        }
+      }
+    },
+    {
+      "id": 1102047,
+      "aisle": "Spices and Seasonings",
+      "image": "salt-and-pepper.jpg",
+      "consistency": "SOLID",
+      "name": "salt and pepper",
+      "nameClean": "salt and pepper",
+      "original": "Salt and Pepper to Taste",
+      "originalName": "Salt and Pepper to Taste",
+      "amount": 1,
+      "unit": "serving",
+      "meta": ["to taste"],
+      "measures": {
+        "us": {
+          "amount": 1,
+          "unitShort": "serving",
+          "unitLong": "serving"
+        },
+        "metric": {
+          "amount": 1,
+          "unitShort": "serving",
+          "unitLong": "serving"
+        }
+      }
+    },
+    {
+      "id": 11165,
+      "aisle": "Produce;Spices and Seasonings",
+      "image": "cilantro.png",
+      "consistency": "SOLID",
+      "name": "cilantro",
+      "nameClean": "cilantro",
+      "original": "Chopped Cilantro or Italian Parsley for garnish",
+      "originalName": "Chopped Cilantro or Italian Parsley for garnish",
+      "amount": 1,
+      "unit": "serving",
+      "meta": ["italian", "chopped", "for garnish"],
+      "measures": {
+        "us": {
+          "amount": 1,
+          "unitShort": "serving",
+          "unitLong": "serving"
+        },
+        "metric": {
+          "amount": 1,
+          "unitShort": "serving",
+          "unitLong": "serving"
+        }
+      }
+    }
+  ],
+  "id": 645753,
+  "title": "Grilled Lemon Garlic Chicken",
+  "readyInMinutes": 45,
+  "servings": 4,
+  "sourceUrl": "https://www.foodista.com/recipe/Y7V8XVZ7/grilled-lemon-garlic-chicken",
+  "image": "https://spoonacular.com/recipeImages/645753-556x370.jpg",
+  "imageType": "jpg",
+  "summary": "If you want to add more <b>gluten free, dairy free, paleolithic, and primal</b> recipes to your recipe box, Grilled Lemon Garlic Chicken might be a recipe you should try. This recipe serves 4 and costs $2.43 per serving. One portion of this dish contains around <b>48g of protein</b>, <b>20g of fat</b>, and a total of <b>388 calories</b>. This recipe from Foodista requires chicken breast, garlic olive oil, salt and pepper, and tumeric. It will be a hit at your <b>The Fourth Of July</b> event. 7 people found this recipe to be delicious and satisfying. From preparation to the plate, this recipe takes approximately <b>approximately 45 minutes</b>. Taking all factors into account, this recipe <b>earns a spoonacular score of 77%</b>, which is pretty good. Try <a href=\"https://spoonacular.com/recipes/grilled-chicken-with-lemon-garlic-and-oregano-187535\">Grilled Chicken with Lemon, Garlic, and Oregano</a>, <a href=\"https://spoonacular.com/recipes/grilled-lemon-chicken-with-garlic-bread-38708\">Grilled Lemon Chicken With Garlic Bread</a>, and <a href=\"https://spoonacular.com/recipes/frango-churrasco-grilled-lemon-garlic-chicken-504725\">Frango churrasco (Grilled lemon & garlic chicken)</a> for similar recipes.",
+  "cuisines": [],
+  "dishTypes": [],
+  "diets": [
+    "gluten free",
+    "dairy free",
+    "paleolithic",
+    "primal",
+    "fodmap friendly",
+    "whole 30"
+  ],
+  "occasions": ["father's day", "4th of july", "summer"],
+  "winePairing": {},
+  "instructions": "Trim any fat and clean Chicken\nPut Chicken in bowl with Garlic Oil, Lemon Juice, Salt and Pepper and Tumeric, combine all.\nIf you have time, do this in the morning and marinate all day in the fridge.  If this is last minute try to give Chicken about an hour in the marinade)\nPre heat Grill, Medium High Heat.\nGrill Chicken about 5 minutes per side until inside is cooked through.\nPlate and garnish with chopped Cilantro or Parsley",
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Trim any fat and clean Chicken",
+          "ingredients": [
+            {
+              "id": 5006,
+              "name": "whole chicken",
+              "localizedName": "whole chicken",
+              "image": "whole-chicken.jpg"
+            }
+          ],
+          "equipment": []
+        },
+        {
+          "number": 2,
+          "step": "Put Chicken in bowl with Garlic Oil, Lemon Juice, Salt and Pepper and Tumeric, combine all.",
+          "ingredients": [
+            {
+              "id": 1102047,
+              "name": "salt and pepper",
+              "localizedName": "salt and pepper",
+              "image": "salt-and-pepper.jpg"
+            },
+            {
+              "id": 9152,
+              "name": "lemon juice",
+              "localizedName": "lemon juice",
+              "image": "lemon-juice.jpg"
+            },
+            {
+              "id": 1004053,
+              "name": "garlic oil",
+              "localizedName": "garlic oil",
+              "image": "garlic-oil.jpg"
+            },
+            {
+              "id": 5006,
+              "name": "whole chicken",
+              "localizedName": "whole chicken",
+              "image": "whole-chicken.jpg"
+            },
+            {
+              "id": 2043,
+              "name": "turmeric",
+              "localizedName": "turmeric",
+              "image": "turmeric.jpg"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404783,
+              "name": "bowl",
+              "localizedName": "bowl",
+              "image": "bowl.jpg"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "step": "If you have time, do this in the morning and marinate all day in the fridge.  If this is last minute try to give Chicken about an hour in the marinade)",
+          "ingredients": [
+            {
+              "id": 0,
+              "name": "marinade",
+              "localizedName": "marinade",
+              "image": "seasoning.png"
+            },
+            {
+              "id": 5006,
+              "name": "whole chicken",
+              "localizedName": "whole chicken",
+              "image": "whole-chicken.jpg"
+            }
+          ],
+          "equipment": []
+        },
+        {
+          "number": 4,
+          "step": "Pre heat Grill, Medium High",
+          "ingredients": [],
+          "equipment": [
+            {
+              "id": 404706,
+              "name": "grill",
+              "localizedName": "grill",
+              "image": "grill.jpg"
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "step": "Heat.",
+          "ingredients": [],
+          "equipment": []
+        },
+        {
+          "number": 6,
+          "step": "Grill Chicken about 5 minutes per side until inside is cooked through.",
+          "ingredients": [
+            {
+              "id": 5006,
+              "name": "whole chicken",
+              "localizedName": "whole chicken",
+              "image": "whole-chicken.jpg"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404706,
+              "name": "grill",
+              "localizedName": "grill",
+              "image": "grill.jpg"
+            }
+          ],
+          "length": {
+            "number": 5,
+            "unit": "minutes"
+          }
+        },
+        {
+          "number": 7,
+          "step": "Plate and garnish with chopped Cilantro or Parsley",
+          "ingredients": [
+            {
+              "id": 11165,
+              "name": "cilantro",
+              "localizedName": "cilantro",
+              "image": "cilantro.png"
+            },
+            {
+              "id": 11297,
+              "name": "parsley",
+              "localizedName": "parsley",
+              "image": "parsley.jpg"
+            }
+          ],
+          "equipment": []
+        }
+      ]
+    }
+  ],
+  "originalId": null,
+  "spoonacularSourceUrl": "https://spoonacular.com/grilled-lemon-garlic-chicken-645753"
+}
